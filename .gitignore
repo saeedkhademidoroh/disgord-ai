@@ -1,14 +1,30 @@
-data*
+# Operating system
+.DS_Store
+Thumbs.db
 
+# Editors
+.idea/
+
+# Environment
 .env
 .env.web
-Revolt.toml
-livekit.yml
-Revolt.toml.old
-livekit.yml.old
 secrets.env
 secrets.env.old
 stoat.json
 
+# Runtime
+*.log
+logs/
+temp/
+tmp/
+
+# Local data
+data*
+
+# Local service configuration
+Revolt.toml
+Revolt.toml.old
+livekit.yml
+livekit.yml.old
 compose.override.yml
 compose.override.yml.old

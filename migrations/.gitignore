@@ -1,2 +1,5 @@
+# Generated migrations
 *.json
-node_modules
+
+# Dependencies
+node_modules/
